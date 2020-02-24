@@ -1,30 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58A2D439-136D-447A-8510-356466FFE1DD}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Steamworks.Core", "Steamworks.Core.xproj", "{AE498320-24E7-4A1D-9352-DBBC5AC734B6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steamworks.Core", "Steamworks.Core.csproj", "{99691450-79B0-49D6-A2A8-2DF3501E25D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Jenkins|Any CPU = Jenkins|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Jenkins|Any CPU.ActiveCfg = Jenkins|Any CPU
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Jenkins|Any CPU.Build.0 = Jenkins|Any CPU
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE498320-24E7-4A1D-9352-DBBC5AC734B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99691450-79B0-49D6-A2A8-2DF3501E25D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99691450-79B0-49D6-A2A8-2DF3501E25D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99691450-79B0-49D6-A2A8-2DF3501E25D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99691450-79B0-49D6-A2A8-2DF3501E25D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {520BCE83-257A-4CE8-962C-4F48FB2BAEE8}
 	EndGlobalSection
 EndGlobal
