@@ -42,8 +42,8 @@ namespace Steamworks.Core
 
         public static readonly Version SteamworksCoreVersion = new Version(0, 2, 1, 0);
 
-        public static readonly Version SteamApiVersion = new Version(1, 38);
-        public static readonly Version SteamApiDllVersion = new Version(3, 62, 82, 82);
+        public static readonly Version SteamApiVersion = new Version(1, 48);
+        public static readonly Version SteamApiDllVersion = new Version(5, 69, 73, 98);
 
 
         private const string kSteamworksWin32ModuleName = "steam_api.dll";

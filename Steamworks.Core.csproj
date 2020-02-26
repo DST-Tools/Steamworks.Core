@@ -10,17 +10,43 @@
     <PackageProjectUrl>https://github.com/FoxCouncil/Steamworks.Core/blob/master/LICENSE</PackageProjectUrl>
     <RepositoryUrl>https://github.com/FoxCouncil/Steamworks.Core/blob/master/LICENSE</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Platforms>AnyCPU;x64;x86</Platforms>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>..\Release\bin\Steamworks.Core.xml</DocumentationFile>
-    <OutputPath>..\$(configuration)\bin\</OutputPath>
+    <DocumentationFile>Steamworks.Core.xml</DocumentationFile>
+    <OutputPath></OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <DocumentationFile>bin\Release x86\Steamworks.Core.xml</DocumentationFile>
+    <OutputPath>bin\Release x86</OutputPath>
+    <DefineConstants>TRACE;IA32</DefineConstants>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>..\Debug\Steamworks.Core.xml</DocumentationFile>
-    <OutputPath>..\Debug\bin</OutputPath>
+    <DocumentationFile>Steamworks.Core.xml</DocumentationFile>
+    <OutputPath></OutputPath>
     <NoWarn>1701;1702;1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DocumentationFile>bin\Debug x86\Steamworks.Core.xml</DocumentationFile>
+    <OutputPath>bin\Debug x86</OutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;DEBUG;IA32</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DocumentationFile>bin\Debug x64\Steamworks.Core.xml</DocumentationFile>
+    <OutputPath>bin\Debug x64</OutputPath>
+    <DefineConstants>TRACE;DEBUG;AMD64</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DocumentationFile>bin\Release x64\Steamworks.Core.xml</DocumentationFile>
+    <OutputPath>bin\Release x64</OutputPath>
+    <DefineConstants>TRACE;AMD64</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>
